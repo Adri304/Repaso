@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 1060762114}
   - component: {fileID: 1060762115}
   - component: {fileID: 1060762116}
+  - component: {fileID: 1060762117}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -388,7 +389,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: be6758e9ced1013468e86d69dfe32ac6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -487,6 +488,22 @@ MonoBehaviour:
   playerController: {fileID: 1060762114}
   rb: {fileID: 1060762115}
   isMove: 1
+--- !u!114 &1060762117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060762109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411341b3eaa537746894730e2ddc58ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderer: {fileID: 0}
+  material1: {fileID: 0}
+  material2: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!1 &1649944417
 GameObject:
   m_ObjectHideFlags: 0
